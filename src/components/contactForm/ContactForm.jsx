@@ -3,7 +3,7 @@ import { AddContactBtn, Input, InputTitle, Form } from './ContactForm.styled';
 import { useState } from 'react';
 import { selectContact } from 'redux/contacts/selector';
 // import { nanoid } from 'nanoid';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 
 export function ContactForm() {
   const [name, setName] = useState('');

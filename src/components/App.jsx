@@ -4,7 +4,7 @@ import Filter from './filter/Filter';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectContact, selectLoader } from 'redux/contacts/selector';
 import { useEffect } from 'react';
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from 'redux/contacts/operations';
 import { Loader } from './loader/loader';
 
 export function App() {
